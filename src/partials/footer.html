@@ -1,23 +1,16 @@
-<footer>
-    <figure>
-        <img src="/images/ico-arrow.svg" alt="">
+<footer class="footer">
+    <figure class="footer__arrow">
+        <img class="footer__arrow--img" src="/images/ico-arrow.svg" alt="">
     </figure>
-    <nav>
-        <ul>
-            <li>ZAPATILLAS</li>
-            <li>ROPA</li>
-            <li>NIÑO/A</li>
-            <li>DESTACADOS</li>
-            <li>TIPS</li>
-        </ul>
-    </nav>
-    <nav>
-        <ul>
-            <li>TWITTER</li>
-            <li>INSTAGRAM</li>
-            <li>YOUTUBE</li>
-        </ul>
-    </nav>
-    <p>&copy; 2023</p>
-    <p>we ❤️ run</p>
+    <div class="footer__list">
+        <nav class="footer__list--nav">
+            <load src="/partials/footer-list-pag.html"/>
+        </nav>
+        <nav class="footer__list--nav">
+            <load src="/partials/footer-list-rss.html"/>            
+        </nav>
+        <nav class="footer__list--nav">
+           <load src="/partials/footer-list-copyright.html"/>
+        </nav>
+    </div>
 </footer>

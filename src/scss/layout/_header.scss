@@ -26,9 +26,11 @@
     align-items: center;
     &__h1 {
         font-size: 30px;
+        line-height:1.5;
     }
     &__p {
         font-size: 16px;
+        padding-bottom: 15px;
     }
     &__scroll {
         background-color: #ffffff;
