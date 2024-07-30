@@ -1,0 +1,27 @@
+.header {
+    background-image: url(/images/cover.jpeg);
+    height: 100vh;
+    color: #ffffff;
+}
+.menu {
+    width: 70px;
+    position: sticky;
+    left: 0;
+    top: 0;
+    background-color: #f26002;
+    padding: 21px;
+}
+.section {
+    height: 100vh;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    &__scroll {
+        background-color: #ffffff;
+        border-radius: 50%;
+        padding: 20px;
+    }
+}
