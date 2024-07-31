@@ -1,5 +1,3 @@
-![Evaluación final sandrarolgom]
-
 # Evaluación final sandrarolgom
 > **NOTA:** Este README.md es una versión de prueba para la entrega:
 
