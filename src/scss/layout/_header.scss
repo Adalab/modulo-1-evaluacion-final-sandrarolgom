@@ -12,7 +12,10 @@
     left: 0;
     top: 0;
     background-color: $orange;
-    padding: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 11px;
 }
 .section {
     height: 100vh;
@@ -25,10 +28,13 @@
     align-items: center;
     &__h1 {
         font-size: 30px;
-        line-height:1.5;
+        line-height:2;
         font-family: $font-title;
         @media (min-width: 768px) {
             font-size: 75px;
+        }
+        @media (min-width: 1000px) {
+            font-size: 100px;
         }
     }
     &__p {
@@ -41,9 +47,9 @@
     &__scroll {
         background-color: $white;
         border-radius: 50%;
-        padding-top: 14.3px;
-        padding-bottom: 12.2px;
-        padding-left: 11px;
-        padding-right: 11px;
+        padding-top: 17px;
+        padding-bottom: 16px;
+        padding-left: 12px;
+        padding-right: 13px;
     }
 }

@@ -34,11 +34,15 @@
         font-size: 20px;
         background-color: $white;
         color: $orange;
-        border: 2px solid $orange;
+        border: 3px solid $orange;
         border-radius: 20px;
         padding-top: 6px;
         padding-bottom: 6px;
         padding-left: 30px;
         padding-right: 30px;
+    }
+    &__button:hover {
+        transition: transform 1s ease;
+        transform: translateY(50px) rotate(-180deg);
     }
 }

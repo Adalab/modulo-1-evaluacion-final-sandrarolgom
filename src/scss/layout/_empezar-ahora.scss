@@ -10,6 +10,9 @@
         @media (min-width: 768px) {
             font-size: 28px;
         }
+        @media (min-width: 1000px) {
+            font-size: 32px;
+        }
     }
     &__boxes {
         text-align: center;
@@ -52,5 +55,9 @@
         padding-right: 25px;
         padding-left: 25px;
     }    
+    &__orangebutton:hover {
+        transition: transform 1.5s ease;
+        transform: translateY(10px) translateY(-10px) rotate(-360deg) scale(1.2);
+    }
 }
     
