@@ -4,20 +4,19 @@
     background-size: cover;
     background-position-x: 45%;
     height: 100vh;
-    color: #ffffff;
+    color: $white;
+    font-family: $font-all;
 }
 .menu {
     position: fixed;
     left: 0;
     top: 0;
-    background-color: #f26002;
+    background-color: $orange;
     padding: 13px;
 }
 .section {
     height: 100vh;
     padding-bottom: 38px;
-    padding-left: 30px;
-    padding-right: 30px;
     font-size: 30px;
     text-align: center;
     display: flex;
@@ -27,19 +26,24 @@
     &__h1 {
         font-size: 30px;
         line-height:1.5;
+        font-family: $font-title;
+        @media (min-width: 768px) {
+            font-size: 75px;
+        }
     }
     &__p {
         font-size: 16px;
         padding-bottom: 15px;
+        @media (min-width: 768px) {
+            font-size: 24px;
+        }
     }
     &__scroll {
-        background-color: #ffffff;
+        background-color: $white;
         border-radius: 50%;
         padding-top: 14.3px;
         padding-bottom: 12.2px;
         padding-left: 11px;
         padding-right: 11px;
-        // 10.1px
-
     }
 }

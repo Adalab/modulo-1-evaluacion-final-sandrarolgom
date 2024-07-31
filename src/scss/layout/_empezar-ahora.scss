@@ -1,12 +1,18 @@
 .section2 {
-    background-color: #f2f2f2;
+    background-color: $dark-white;
     text-align: center;    
     padding-bottom: 49px;
     padding-top: 30px;
+    font-family: $font-all;
     &__title3 {
         font-size: 20px;
+        font-family: $font-title;
+        @media (min-width: 768px) {
+            font-size: 28px;
+        }
     }
     &__boxes {
+        text-align: center;
         padding-left: 76px;
         padding-right: 76px;
         padding-top: 41px;
@@ -15,18 +21,36 @@
         grid-template-rows: 1fr 1fr 1fr;
         gap: 50px;
         font-size: 18px;
+        @media (min-width: 768px) {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;
         }
+    }
+    .articles {
+        &__h4{
+            padding-bottom: 18px;
+            font-family: $font-title;
+            @media (min-width: 768px) {
+                font-size: 24px;
+            }
+        }
+        &__content{
+            @media (min-width: 768px) {
+                font-size: 20px;
+            }
+        }
+    }
     &__orangebutton {
         font-size: 20px;
-        color: #ffffff;
-        background-color: #f26002;
+        font-family: $font-all;
+        color: $white;
+        background-color: $orange;
         border: none;
         border-radius: 23px;
         padding-bottom: 10px;
         padding-top: 10px;
         padding-right: 25px;
         padding-left: 25px;
-    
     }    
 }
     
